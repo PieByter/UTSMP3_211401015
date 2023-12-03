@@ -1,4 +1,4 @@
 # UTS MOBILE PROGRAMMING LAB 3
 ## LINK VIDEO
-https://drive.google.com/file/d/1jX4u0nScnjbOwOgI9Wen1H5l3Nz5LVEZ/view?usp=drive_link
+https://drive.google.com/drive/folders/1jULTeYLaJpbZvFDr_8UqqyyJSNsm6I7J?usp=drive_link
 
