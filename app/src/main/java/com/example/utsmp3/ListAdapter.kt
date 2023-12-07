@@ -7,7 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class ListAdapter(private val categoryList: List<CategoryItem>) : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
+class ListAdapter(private val categoryList: List<CategoryItem>) :
+    RecyclerView.Adapter<ListAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val categoryImage: ImageView = itemView.findViewById(R.id.category_item_images)
@@ -15,7 +16,8 @@ class ListAdapter(private val categoryList: List<CategoryItem>) : RecyclerView.A
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.category_list, parent, false)
+        val view =
+            LayoutInflater.from(parent.context).inflate(R.layout.category_list, parent, false)
         return ViewHolder(view)
     }
 
